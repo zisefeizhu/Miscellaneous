@@ -214,3 +214,4 @@ func DeleteRequest(url, body string, headerSet map[string]string) (respStatusCod
 	return
 }
 ```
+- 注：上述五类http请求实质还可以写到一个函数中，这里为了调用清晰特地按类分开。
